@@ -1,0 +1,99 @@
+a{color:chocolate;
+background-color: beige; 
+text-decoration: underline;
+border-style: dashed;
+border-top-color: bisque;
+border-left-color: bisque;
+text-align: center;
+}
+
+h2{
+  font-size: x-large;
+  color: red;
+  border-style: double;
+  background-color: bisque;
+  border-color:chocolate
+}
+h3{
+  font-size: x-large;
+  color: orange; 
+  border-style: double;
+  background-color: bisque;
+  border-color:chocolate
+}
+h4{
+  font-size: x-large;
+   color: yellow; 
+   border-style: double;
+   background-color:burlywood;
+   border-color:chocolate
+}
+h6{font-size: medium;
+   color:black;
+   border-style: dashed;
+   border-color: chocolate;
+   background-color:palegoldenrod;
+}
+ul{display:flex ;justify-content: center;}
+li{margin: right 10px;list-style:none ;}
+
+body{
+background-color:floralwhite;
+border: solid chocolate 
+}
+
+.cours{display: flex;justify-content:flex-start ;flex-direction: row;
+
+}
+
+.cours img{height: 250px; 
+border: solid 4px black; 
+
+
+
+
+}
+
+
+.résumé h1{color:chocolate;
+font-size: 20px;  
+
+}
+
+.résumé span{
+text-decoration: underline;
+color:red ;  
+}
+
+.img_index{height: 245px;
+  border:solid 3.5px black;
+ 
+
+}
+
+.cours span{
+text-decoration: underline;  
+color: red;
+}
+
+.flexy {
+ display: flex; 
+}
+
+.grid-container{
+display:grid ;
+grid: template columns: 100px 200px 300px;
+grid: template rows: 100px 200px 300px;
+
+}
+
+.img{
+  border:solid 5px black;
+  height: 200px;
+}
+
+.flex{
+display: flex; 
+align-items: center;
+font-size: 25px;
+}
